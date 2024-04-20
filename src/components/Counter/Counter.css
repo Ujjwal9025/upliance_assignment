@@ -4,21 +4,23 @@
   align-items: center;
   justify-content: center;
   height: 300px;
-  width: fit-content;
   gap: 2rem;
-  border: 2px solid black;
+  width: 50%;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
 }
 
 .count-display {
-  font-size: 2rem;
+  font-size: 4rem;
   margin-bottom: 20px;
 }
 
 .button-container {
   display: flex;
   justify-content: center;
+  gap: 1rem;
 }
 
 .custom-button {
   margin: 0 10px !important;
+  font-size: 1.2rem !important;
 }

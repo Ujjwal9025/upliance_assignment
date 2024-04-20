@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Button from '@mui/material/Button';
+import AddIcon from '@mui/icons-material/Add';
+import RemoveIcon from '@mui/icons-material/Remove';
 import './Counter.css';
 
 const Counter: React.FC = () => {
@@ -40,9 +42,9 @@ const Counter: React.FC = () => {
     <div className="counter-container">
       <div className="count-display">{count}</div>
       <div className="button-container">
-        <Button className="custom-button" variant="contained" onClick={incrementCount}>Increment</Button>
-        <Button className="custom-button" variant="contained" onClick={decrementCount}>Decrement</Button>
+        <Button className="custom-button" variant="outlined" onClick={incrementCount}><AddIcon /></Button>
         <Button className="custom-button" variant="contained" onClick={resetCount}>Reset</Button>
+        <Button className="custom-button" variant="outlined" onClick={decrementCount}><RemoveIcon/></Button>
       </div>
     </div>
   );

@@ -101,7 +101,7 @@ const UserDataForm: React.FC<UserDataFormProps> = ({onUnsavedChanges, onSavedCha
           required
         />
         <Button type="submit" variant="contained">
-          Submit
+          Save
         </Button>
       </form>
     </div>

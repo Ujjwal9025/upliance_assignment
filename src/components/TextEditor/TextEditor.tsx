@@ -17,7 +17,7 @@ const TextEditor = () => {
         </div>` : '';
 
   return (
-    <ReactQuill theme="snow" value={userDataHTML}/>
+    <ReactQuill theme="snow" value={userDataHTML} className="text-editor"/>
   )
 }
 

@@ -1,0 +1,10 @@
+.text-display{
+  width: 30%;
+  border: 1px solid rgb(201, 201, 201);
+  min-height: 350px;
+  padding: 1rem;
+
+  h1{
+    margin-bottom: 0.5rem;
+  }
+}
