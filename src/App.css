@@ -21,3 +21,14 @@
   width: 100%;
 }
 
+@media screen and (max-width: 800px) {
+  .container{
+    height: fit-content;
+  }
+  
+  .section1, .section2{
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+

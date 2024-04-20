@@ -8,3 +8,15 @@
     margin-bottom: 0.5rem;
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .text-display{
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .text-display{
+    width: 100%;
+  }
+}

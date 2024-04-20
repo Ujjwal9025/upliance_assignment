@@ -6,7 +6,7 @@
   height: 300px;
   gap: 2rem;
   width: 50%;
-  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  box-shadow: rgba(129, 163, 193, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
 }
 
 .count-display {
@@ -23,4 +23,22 @@
 .custom-button {
   margin: 0 10px !important;
   font-size: 1.2rem !important;
+}
+
+@media screen and (max-width: 1200px) {
+  .custom-button {
+    margin: 0 10px !important;
+    font-size: 1rem !important;
+  }
+
+  .count-display {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .counter-container {
+    width: 100%;
+  }
 }
